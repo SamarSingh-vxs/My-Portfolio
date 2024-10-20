@@ -1,0 +1,174 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Border</title>
+    <link rel="stylesheet" href="try.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="box">
+        <div class="card">
+           
+                    
+            <div class="title"> <div class="container">
+                <i class="fa-solid fa-paintbrush"></i> <h1 id="name"><span>S</span><span class="change">A</span><span class="change">M</span><span class="change">A</span><span class="change">R</span></h1>
+
+              </div>
+              <script src="app.js"></script></div>
+            <div class="detail">
+                
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="about">
+            <div class="context">
+                <div class="logo">
+                    <a href="#"><img src="cx.png" alt="My Img." class="main-img"></a>
+                </div>
+                <div class="content">
+                    <h1>Hi, It's <span>SAMAR SINGH</span></h1>
+                    <h3 class="typing-text">I'm a <span class="dynamic-role"></span></h3>
+                    <p>Welcome to my personal space on the web!</p>
+                    <pre>you can find me on these Platforms</pre>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-staylinked"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <section>           
+                <div class="row">
+                    <img src="html.png" alt="">
+                    <p>HTML</p>
+                    <div class="bar">
+                        <div class="bar-1"></div>
+                    </div>
+                    <span></span>
+                </div>
+
+
+                <div class="row">
+                    <img src="css.png" alt="">
+                    <P>CSS</P>
+                    <div class="bar">
+                        <div class="bar-1"></div>
+                    </div>
+                    <span></span>
+                </div>
+
+
+
+
+                <div class="row">
+                    <img src="python.png" alt="">
+                    <P>PYTHON</P>
+                    <div class="bar">
+                        <div class="bar-2"></div>
+                    </div>
+                    <span></span>
+                </div>
+
+                <div class="row">
+                    <img src="css-M.jpg" alt="">
+                    <P>(TAILWIND & BOOTSTRAP)<br>#MASTER IN-CSS</P>
+                    <div class="bar">
+                        <div class="bar-2"></div>
+                    </div>
+                    <span></span>
+                </div>
+
+
+                <div class="row">
+                    <img src="java.png" alt="">
+                    <P>JAVA SCRIPT</P>
+                    <div class="bar">
+                        <div class="bar-2"></div>
+                    </div>
+                    <span></span>
+                </div>
+
+
+                <div class="row">
+                    <img src="kotlin.png" alt="">
+                    <P>KOTLIN</P>
+                    <div class="bar">
+                        <div class="bar-3"></div>
+                    </div>
+                    <span></span>
+                </div>
+
+
+                <div class="row">
+                    <img src="react.png" alt="">
+                    <P>REACT JS</P>
+                    <div class="bar">
+                        <div class="bar-3"></div>
+                    </div>
+                    <span></span>
+                </div>
+
+
+                <div class="row">
+                    <img src="sql.png" alt="">
+                    <P>S Q L</P>
+                    <div class="bar">
+                        <div class="bar-3"></div>
+                    </div>
+                    <span></span>
+                </div>
+
+            </div>
+        
+
+
+
+    </div>
+    </section>
+    <section>
+        <header>
+            <a class="pencil">
+               MY PROJECTS
+               <span></span><span></span><span></span><span></span>
+            </a>
+            <div class="circle">
+                
+            </div>
+            
+            <script>
+                let circle = document.querySelector('.circle');
+                circle.addEventListener('click',function(){
+                    for(let i=0 ; i >= 100 ; i++ ){
+                    let i = prompt();
+                        let particle = document.createElement('i');
+                        particle.classList.add('particle');
+                        let randomX = (Math.random() - 0.5) *  window.
+                        innerWidth;
+                        let randomY = (Math.random() - 0.5)  *  window.
+                        innerHeight;
+
+                        particle.style.setProperty('--x', randomX+'px' );
+                        particle.style.setProperty('--y', randomY+'px' );
+
+                        document.circle.appendChild(particle);
+
+                        setTimeout(function(){
+                       particle.remove();
+                        },5000);                    }
+                });
+            </script>
+        </header>
+    </section>
+    <section></section>
+
+</body>
+</html> 
